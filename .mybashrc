@@ -1,0 +1,40 @@
+# this is .mybashrc
+# make your own magic here
+[ -d /opt/sfw/bin ] && PATH=$PATH:/opt/sfw/bin
+[ -d /usr/cuda/bin ] && PATH=$PATH:/usr/cuda/bin
+
+export PATH=$PATH:/home/grade-cstaley/bin/:. #:/home/jseng/bin/
+ 
+if uname -m | grep -q 64;
+   then export PATH=$PATH:/home/grade-cstaley/357/LZWExp/64Bit/
+elif uname -m | grep -q 86;
+   then export PATH=$PATH:/home/grade-cstaley/357/LZWExp/32Bit/
+else
+   echo Machine is neither i686 nor x86_64 architecture. Architecture is: `uname -m`
+fi
+ 
+bend() {
+   if [ -z "$1" ]
+      then echo Invalid Input
+   elif [ -z "$2" ]
+      then echo Invalid Input
+   else
+      bender ~grade-cstaley/357/Midterm/$1/Problem$2/turnin/
+   fi
+}
+turn() {
+   if [ -z "$1" ]
+      then echo Invalid Input
+   elif [ -z "$2" ]
+      then echo Invalid Input
+   else
+      turnin ~grade-cstaley/357/Midterm/$1/Problem$2/turnin/ Problem$2.c
+   fi
+}
+#alias sqlplus='/app/oracle/product/10.2.0/client_1/bin/sqlplus'
+#alias xcode='/Applications/Xcode.app/Contents/MacOS/Xcode'
+alias ssh13='ssh rharri05@unix13.calpoly.edu'
+alias rm='rm -i'
+alias mv='mv -i'
+alias mysql='mysql --defaults-extra-file=~/my.cnf'
+# end

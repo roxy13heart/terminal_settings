@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/rharri05/cpe430/hw4/hw4given'
+let g:netrw_dirhist_2='/home/rharri05/cpe430/hw5/hw5given'
+let g:netrw_dirhist_3='/home/rharri05/cpe430/hw4/hw4sol'
+let g:netrw_dirhist_4='/home/rharri05/.ssh'
+let g:netrw_dirhist_5='/home/rharri05/.vim'
