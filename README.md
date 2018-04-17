@@ -7,6 +7,7 @@ Applications (Necessary):
 * Sublime
 * Chrome
 * Shiftit: (Installation) http://macappstore.org/shiftit/, (github) https://github.com/fikovnik/ShiftIt
+* Key repeat properly: https://lifehacker.com/5826055/make-your-keyboard-keys-repeat-properly-when-held-down-in-mac-os-x-lion
 
 Applications (Work):
 * SequelPro
