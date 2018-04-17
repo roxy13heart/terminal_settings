@@ -10,6 +10,7 @@ Applications (Necessary):
 
 Applications (Work):
 * SequelPro
+* https://devdocs.io/
 
 Applications (Personal):
 * Spotify
