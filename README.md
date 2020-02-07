@@ -7,6 +7,11 @@
 Applications (Necessary):
 * Slack
 * Sublime
+    - Babel https://packagecontrol.io/packages/Babel
+    - Trailing Spaces https://packagecontrol.io/packages/TrailingSpaces#installation
+    - Bracket Highlighter https://packagecontrol.io/packages/BracketHighlighter
+    - Markdown Preview https://packagecontrol.io/packages/MarkdownPreview
+    
 * Chrome
 * Shiftit: (Installation) http://macappstore.org/shiftit/, (github) https://github.com/fikovnik/ShiftIt
 
